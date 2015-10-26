@@ -12,7 +12,7 @@ end
 Vagrant.configure(2) do |config|
      # Every Vagrant development environment requires a box. You can search for
      # boxes at https://atlas.hashicorp.com/search.
-     config.vm.box = "opentable/win-8.1-enterprise-amd64-nocm"
+     config.vm.box = "modernIE/w10-edge"
      config.vm.hostname = "VagrantTest"
      config.vm.boot_timeout = 600
      config.vm.communicator = "winrm"
